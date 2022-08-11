@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'sudo yum install npm' 
+           sh 'ssh remotehost sudo -A yum install npm' 
         }
      }
      
