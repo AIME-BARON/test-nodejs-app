@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'ssh ec2-user sudo -A yum install npm' 
+           sh 'sudo -S yum install npm' 
         }
      }
      
