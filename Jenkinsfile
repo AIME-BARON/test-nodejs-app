@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'sudo -S yum install npm' 
+           sh 'echo AIMEbrice1980$ | sudo -S yum install npm' 
         }
      }
      
